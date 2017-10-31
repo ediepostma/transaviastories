@@ -1,0 +1,311 @@
+/* Basis opmaak */
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:"Nexa Bold";
+    color: #161818;
+    font-size: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #F3E5D7;
+    margin: inherit;
+}
+main > section{
+    background-image: url(/images/Desktop%20Telegrafisch.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100em;
+    height: 115em;
+}
+iframe{
+    margin-left: 23.5em;
+    padding-top: 2.5em;
+}
+section > footer{
+    position: fixed;
+    margin: 1em;
+}
+section > footer > a{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+div{
+    width: 100%;
+}
+header{
+    font-family:"Nexa Bold";
+    background-color: #F3E5D7;
+    text-decoration: none;
+    background-image: url(/images/winter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 1em;
+}
+nav{
+    margin: 2em;
+}
+ul{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    color: #161818;
+    justify-content: flex-start;
+    white-space: nowrap;
+    overflow-x: scroll;
+}
+li a{
+    text-decoration: none;
+    color: #161818;
+    display: block;
+    margin: .5em;
+}
+a{
+    text-decoration: none;
+    color: #FF2D65;
+    transition: all 1s;    
+}
+button{
+    transition: all 1s;
+}
+
+a:hover{
+    color: #00D867;    
+}
+fieldset{
+    border-style: none;
+    font-family:"NexaRegular";
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+article{
+    background-color: white;
+    padding: 3%;
+    margin: 3%;
+    border-radius: .75rem;
+    font-family:"NexaRegular";
+    box-shadow: inset 0 -0.1875rem 0.0625rem #606060;
+    line-height: 1.4em;
+}
+header > div > article{
+    background-color: rgba(255, 255, 255, 0.80);
+}
+form{
+    background-color: white;
+    padding: 3%;
+    margin: 1.5em;
+    border-radius: .75rem;
+    color: #606060;
+    box-shadow: inset 0 -0.1875rem 0.0625rem #606060;
+    max-width: 30em;
+}
+fieldset{
+    display: flex;
+    
+}
+h1{
+    color: #2700A3;
+    margin: 2%;
+    width: 100%;
+}
+h2{
+    color: #00D867;
+    font-size: 1.2em;
+    margin-left: .5em;
+}
+h3{
+    color: gray;
+    margin: 2%;
+    font-size: .8em;
+}
+legend{
+    color: #2700A3;
+    margin: 2%;
+    font-size: 2em;
+    font-family: nexa bold;
+}
+p{
+    margin: 2%
+}
+input{
+    
+    margin-bottom: .8em;
+}
+
+/* Filter titels */
+.filtertitel{
+    color: #00D867;
+    margin: 2%;
+    font-size: 1em;    
+}
+
+/* Filters laten zien */
+
+fieldset > div{
+
+}
+
+#menu-toggle{
+    display: none;
+}
+#filtermenu{
+    display: none;
+    overflow: hidden;
+}
+#menu-toggle:checked + #filtermenu{
+    display: block;
+}
+.filterknop{
+    font-size: 1rem;
+    font-family: nexa bold;
+    color: white;
+    box-shadow: inset 0 -0.1875rem 0.0625rem #ca2b55;
+    padding: .4375em 1.5em .5625em;
+    background: #e83a6a;
+    border-radius: 1.25em;
+    border: none;
+    margin: 2em;
+}
+
+/* Zoeken */
+.zoekknop{
+    font-size: 1rem;
+    font-family: nexa bold;
+    color: white;
+    box-shadow: inset 0 -0.1875rem 0.0625rem blue;
+    padding: .4375em 1.5em .5625em;
+    background: #2700A3;
+    border-radius: 1.25em;
+    border: none;
+}
+.zoekbalk{
+    padding: .5em;
+    border: .0625rem solid #91a3b7;
+    border-radius: .5rem;
+    width: 20em;
+    margin: .5em;
+}
+.zoeken{
+    background-color: rgba(255, 255, 255, 0.57);
+    max-width: 22em;
+    max-height: 3em;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+}
+
+
+/* Roze button */
+.button{
+    font-size: 1rem;
+    font-family: nexa bold;
+    color: white;
+    box-shadow: inset 0 -0.1875rem 0.0625rem #ca2b55;
+    padding: .4375em 1.5em .5625em;
+    background: #e83a6a;
+    border-radius: 1.25em;
+    border: none;
+}
+.button:hover{
+    background-color: #FF638D;
+    color: white;    
+}
+
+/* opslaan button hartje */
+button{
+    font-size: 1em;
+    font-family: nexa bold;
+    color: white;
+    box-shadow: inset 0 -0.1875rem 0.0625rem #ca2b55;
+    background: #e83a6a;
+    border-radius: 100%;
+    border: none;
+    float: right;
+}
+button:hover{
+    background-color: #FF638D;
+    color: white;    
+}
+footer > button.active{
+    color: #00D867;
+}
+/* download button */
+.download{
+    font-size: 1em;
+    font-family: nexa bold;
+    color: white;
+    box-shadow: inset 0 -0.1875rem 0.0625rem #ca2b55;
+    background: #e83a6a;
+    border-radius: 100%;
+    border: none;
+    margin-left: 1em;
+}
+
+.download:hover{
+    background: #FF638D;
+    color: white;    
+}
+
+/* Responsive */
+
+
+@media screen and (min-width:48.125em){
+    main{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    article{
+        max-width: 20em;
+        position: relative;
+        
+    }
+    footer{
+        position: absolute;
+        bottom: 0;
+    }
+    button{
+        margin-top: .5em;
+        margin-bottom: 1em;
+    }
+    header > div > article{
+        justify-content: center;
+    }
+    
+}
+@media screen and (min-width:59em){
+    header > div{
+        display: flex;
+    }
+}
+
+/* smallscreen */
+@media screen and (max-width:770px){
+    main > section{
+    background-image: url(/images/Mobile%20Telegrafisch.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 23.5em;
+    height: 188em;
+}
+iframe{
+    margin-left: -3em;
+    padding-top: .5em;
+    height: 12em;
+}
+
+}
+
+/* Verschillende kleuren verhalen */
+
+article:nth-child(2){
+    background-image: url(/images/bgstoffigblokje.png);
+}
+article:nth-child(3){
+    background-image: url(/images/bgkinderboekblokje.png);
+}
+article:nth-child(4){
+    background-color: #1F1F1F;
+    color: white;
+}
