@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="/css/main.css">
+    <link href="/css/fonts.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Account</title>
+</head>
+
+<body>
+     <header>
+       <img src="images/ts.png" alt="logo">
+        <div><nav>
+            <ul>
+                <li><a class="button" href="index.html">Home</a></li>
+                <li><a class="button" href="mijnverhalen.html">Mijn verhalen</a></li>
+                <li><a class="button" href="account.html">Account</a></li>
+            </ul>
+        </nav>
+        <form class="zoeken">
+            <input class="zoekbalk" type="search">
+            <button class="zoekknop">Zoek</button>
+        </form>
+        </div>
+    </header>
+    
+    <section>
+    <form action="./account2.html">
+        <fieldset>
+           <legend>Log in</legend>
+            <label for="mail">E-mail:</label>
+            <input placeholder="noreply@transavia.com" type="email" id="mail" name="mail"> 
+            <label for="password">Wachtwoord:</label>
+            <input  type="password" id="password" name="password">
+            <input class="zoekknop" type="submit" value="Log in">
+        </fieldset>
+    </form>
+    </section>
+    <section>
+         <form action="./account2.html">
+        <fieldset>
+        <legend>Nog geen account?</legend>
+         <label for="naam">Voornaam:</label> 
+           <input placeholder="Jan" id="naam" type="text" name="name">
+           <label for="achternaam">Achternaam:</label>
+           <input placeholder="Janssen" id="achternaam" type="text" name="lastname">
+            <label for="mail2">E-mail:</label>
+            <input placeholder="noreply@transavia.com" type="email" id="mail2" name="mail"> 
+            <label for="password2">Wachtwoord:</label>
+            <input type="password" id="password2" name="password">
+            <label for="repeatpassword">Herhaal wachtwoord:</label>
+            <input type="password" id="repeatpassword" name="password">
+            <input class="zoekknop" type="submit" value="Maak account aan">
+        </fieldset>
+    </form></section>
+    <script src="vw.js"></script>
+</body>
+
+</html>
